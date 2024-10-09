@@ -1,37 +1,56 @@
 'use client';
-
+import Image from 'next/image'
+import Subtract from '../../public/images/Subtract.png'
 import React, { useState } from 'react';
+
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="py-4">
-            <div className="container mx-auto flex gap-12 max-sm:gap-64 items-center">
-                <img className='w-[35px] h-[40px]'></img>
-                <div className="hidden md:flex space-x-6">
-                    <a href='#home' className='w-[65px] h-[32px] text-[#FFFFFF] font-normal font-[Poppins] text-[21px] leading-8'>Home</a>
-                    <a href='#product' className='w-[104px] h-[32px] text-[#FFFFFF] font-normal font-[Poppins] text-[21px] leading-8'>About Me</a>
-                    <a href='#cards' className='w-[92px] h-[32px]  text-[#FFFFFF] font-normal font-[Poppins] text-[21px] leading-8'>Services</a>
-                    <a href='#home' className='w-[65px] h-[32px] text-[#FFFFFF] font-normal font-[Poppins] text-[21px] leading-8'>Projects</a>
-                    <a href='#product' className='w-[104px] h-[32px] text-[#FFFFFF] font-normal font-[Poppins] text-[21px] leading-8'>Testimonials</a>
-                    <a href='#cards' className='w-[92px] h-[32px]  text-[#FFFFFF] font-normal font-[Poppins] text-[21px] leading-8'>Contact</a>
-                    <button className='text-[#FFFFFF]'>Download Cv</button>
+        <nav className="w-[full] h-[67px]">
+            <div className="container mx-auto flex justify-between items-center px-4 md:px-8">
+                {/* Logo and Title */}
+                <div className="flex items-center space-x-4">
+                    <Image src={Subtract} width={70} height={66} alt='logo' className="w-[50px] h-[50px]" />
+                    <p className='w-[159px] h-[59px] top-[4px] left-[87px] leading-[59px] text-[#FBFBFB] text-2xl md:text-[48px] font-[Montserrat]'>
+                        <span className='font-bold'>M</span>umair
+                    </p>
                 </div>
+
+                {/* Desktop Menu */}
+                <div className="hidden md:flex space-x-6 items-center">
+                    <a href='#home' className='text-[#FFFFFF] text-[21px] leading-[32px] font-[Poppins] font-normal hover:underline'>Home</a>
+                    <a href='#about' className='text-[#FFFFFF] text-[21px] leading-[32px] font-[Poppins] font-normal hover:underline'>About Me</a>
+                    <a href='#services' className='text-[#FFFFFF] text-[21px] leading-[32px] font-[Poppins] font-normal hover:underline'>Services</a>
+                    <a href='#projects' className='text-[#FFFFFF] text-[21px] leading-[32px] font-[Poppins] font-normal hover:underline'>Projects</a>
+                    <a href='#testimonials' className='text-[#FFFFFF] text-[21px] leading-[32px] font-[Poppins] font-normal hover:underline'>Testimonials</a>
+                    <a href='#contact' className='text-[#FFFFFF] text-[21px] leading-[32px] font-[Poppins] font-normal hover:underline'>Contact</a>
+                    <button className='bg-[#FD6F00] text-white px-4 py-2 rounded text-[21px] font-normal '>Download CV</button>
+                </div>
+
+                {/* Mobile Hamburger Menu */}
                 <div className="md:hidden">
-                    <button onClick={() => setIsOpen(!isOpen)}>
-                        <span className="text-xl text-black">&#9776;</span>
+                    <button onClick={() => setIsOpen(!isOpen)} className="text-white text-2xl">
+                        &#9776;
                     </button>
                 </div>
             </div>
+
+            {/* Mobile Menu */}
             {isOpen && (
-                <div className="md:hidden text-center bg-blue-100">
-                    <a href='#home' className="block py-2 text-black text-black font-normal font-family: Arial, sans-serif">Home</a>
-                    <a href='#products' className="block py-2 text-black text-black font-normal font-family: Arial, sans-serif">Product</a>
-                    <a href='#cards' className="block py-2 text-black text-black font-normal font-family: Arial, sans-serif">Review</a>
+                <div className="md:hidden bg-[#1E1E1E] text-center text-[#FFFFFF]">
+                    <a href='#home' className="block py-2 text-lg font-[Poppins] hover:underline">Home</a>
+                    <a href='#about' className="block py-2 text-lg font-[Poppins] hover:underline">About Me</a>
+                    <a href='#services' className="block py-2 text-lg font-[Poppins] hover:underline">Services</a>
+                    <a href='#projects' className="block py-2 text-lg font-[Poppins] hover:underline">Projects</a>
+                    <a href='#testimonials' className="block py-2 text-lg font-[Poppins] hover:underline">Testimonials</a>
+                    <a href='#contact' className="block py-2 text-lg font-[Poppins] hover:underline">Contact</a>
+                    <button className='bg-[#FD6F00] text-[#FFFFFF] text-[21px] font-normal font-[Poppins]  px-4 py-2 mt-2 md:w-[188px] md:h-[52px] w-full leading-[32px]'>Download CV</button>
                 </div>
             )}
         </nav>
+
     );
 };
 
