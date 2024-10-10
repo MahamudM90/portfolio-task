@@ -40,7 +40,7 @@ export default function HeroSection() {
                     <div className="absolute top-4 md:top-[-18px] left-1 md:left-[-9%] bg-[#FD6F0099] w-48 h-8 md:w-[374px] md:h-[83px] z-20"></div>
 
                     {/* White Circular Background */}
-                <div className="absolute inset-0 bg-white rounded-full z-10"></div>
+                    <div className="absolute inset-0 bg-white rounded-full z-10"></div>
 
                     {/* Profile Image */}
                     <Image
@@ -52,7 +52,7 @@ export default function HeroSection() {
                 </div>
 
                 {/* Social Icons Section */}
-                <div className="flex justify-center items-center  space-x-6 z-40 md:mt-[440px] md:-ml-[350px]">
+                <div className="flex justify-center items-center  space-x-6 z-40 md:mt-[440px] md:-ml-[350px] max-sm:mt-[40px]">
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                         <FaFacebook className="w-[33px] h-[33px] text-white hover:text-orange-500 transition-colors" />
                     </a>
