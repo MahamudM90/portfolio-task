@@ -32,7 +32,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="py-16">
+    <section className="py-32">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl font-semibold text-white mb-6">Testimonials</h2>
         <p className="text-gray-400 mb-12">

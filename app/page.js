@@ -6,6 +6,7 @@ import Service from "./component/Service/Page";
 import Project from "./component/Project/Page";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Testimonials from "./component/Testimonials/Page";
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
       <AboutMe></AboutMe>
       <Service></Service>
       <Project></Project>
+      <Testimonials></Testimonials>
       
     </div>
   );

@@ -12,7 +12,7 @@ export default function HeroSection() {
     return (
         <>
 
-            <div className="max-sm:mt-[350px] flex flex-col md:flex-row justify-evenly items-center min-h-screen">
+            <div className="py-8 max-sm:mt-[350px] flex flex-col md:flex-row justify-evenly items-center min-h-screen">
                 {/* Left Section: Text */}
                 <div className="flex flex-col justify-center md:w-1/2 text-center md:text-left px-4 md:px-8">
                     <h1 className="text-[#FFFFFF] text-3xl md:text-[24px] font-[Poppins] font-semibold">
