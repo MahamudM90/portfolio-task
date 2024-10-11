@@ -3,9 +3,10 @@ import Vector1 from '../../public/images/Vector-1.png'
 import Vector2 from '../../public/images/Vector-2.png'
 import Vector3 from '../../public/images/vector-3.png'
 import Vector4 from '../../public/images/vector-4.png'
+
 const Services = () => {
     return (
-        <section className="py-16">
+        <section className="py-10">
             <div className="container mx-auto px-6 text-center">
                 <h2 className="text-[65px] leading-[98px] font-semibold text-[#FFFFFF] mb-6">Services</h2>
                 <p className="text-[#FFFFFF] text-[19px] leading-[28px] font-normal font-[Poppins] mb-12">
