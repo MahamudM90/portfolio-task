@@ -5,7 +5,6 @@ A single-page responsive website using Next Js, Tailwind CSS, and Animation
 ## Technologies uses
  - Next Js
  - Tailwind CSS
- - 
 ## The design include
  - Navigation Bar (Responsive):.
 
@@ -29,3 +28,4 @@ $ cd portfolio
 $ npm install
 $ npm run dev
 ```
+   ###    [Live Site](https://mahamudm90.github.io/Task-1)
