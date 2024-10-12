@@ -12,15 +12,15 @@
   /* Active dot */
   .slick-dots li.slick-active button:before {
     opacity: 1; /* Fully visible */
-    color: yellow; /* Yellow color for active dot */
+    color: white; /* Yellow color for active dot */
   }
   
   /* Make the slider responsive */
   @media (max-width: 768px) {
     .slick-dots li button:before {
-      font-size: 20px; /* Slightly smaller dots on mobile */
-      width: 20px;
-      height: 20px;
+      font-size: 40px; /* Slightly smaller dots on mobile */
+      width: 40px;
+      height: 40px;
     }
   }
   
