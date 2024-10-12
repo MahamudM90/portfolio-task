@@ -41,7 +41,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="py-20 md:py-32">
+    <section className="py-20 md:py-52">
       <div className="container mx-auto px-4 sm:px-6 text-center">
         <h2 className="text-white text-4xl sm:text-5xl md:text-[65px] leading-tight font-semibold font-[Poppins] mb-6">Testimonials</h2>
         <p className="font-[Poppins] text-lg sm:text-xl md:text-[21px] leading-relaxed text-white mb-12">
@@ -50,7 +50,7 @@ const Testimonials = () => {
         </p>
         <Slider {...settings}>
           {/* Testimonial 1 */}
-          <div className="w-[1000px] h-[320px] bg-white rounded-lg p-6 md:p-8 shadow-lg">
+          <div className="w-[1087px] h-[344px] bg-white rounded-lg p-6 md:p-8 shadow-lg">
             <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
               <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden">
                 <Image
@@ -73,7 +73,7 @@ const Testimonials = () => {
             </div>
           </div>
           {/* Testimonial 2 */}
-          <div className="w-[1000px] h-[320px] bg-white rounded-lg p-6 md:p-8 shadow-lg">
+          <div className="w-[1087px] h-[344px] bg-white rounded-lg p-6 md:p-8 shadow-lg">
             <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
               <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden">
                 <Image

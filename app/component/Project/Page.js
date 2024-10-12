@@ -10,13 +10,13 @@ export default function Project() {
     return (
         <>
             {/* project category */}
-            <section className="text-center py-12">
+            <section className="text-center py-32">
                 <h1 className="text-[#FFFFFF] text-3xl font-semibold font-[Poppins] leading-[98px] md:text-[65px] lg:text-5xl mb-4">My Projects</h1>
                 <p className="text-[#FFFFFF] text-[21px] font-normal font-[Poppins] leading-[32px] mb-8">
                     Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris est risus <span className="block">lectus. Phasellus consequat urna tellus</span>
                 </p>
 
-                <div className="flex flex-wrap justify-center gap-4 mt-8">
+                <div className="flex flex-wrap justify-center gap-4">
                     <button className="w-[70px] h-[56px] text-[#000000] text-[24px] font-[Poppins] leading-[24px] bg-[#F8F8F8] rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#FD6F00] duration-300">
                         All
                     </button>
@@ -35,7 +35,7 @@ export default function Project() {
                 </div>
             </section>
             {/* project details */}
-            <section className='px-6 mt-6'>
+            <section className='px-6 mt-2'>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:gap-4 gap-16'>
                     {/* card 1 */}
                     <div className='relative w-[390px] h-[489px] bg-[#FFEBDB] px-24 rounded transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-90 hover:bg-[#FFFFFF] duration-300'>
