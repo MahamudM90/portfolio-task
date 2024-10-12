@@ -9,7 +9,7 @@ const Design= () => {
       <div className="max-w-4xl mx-auto text-center">
         {/* Heading */}
         <h2 className="text-[65px] text-[#FFFFFF]  md:text-[65px] font-semibold font-[Poppins] leading-[98px] mb-4">
-          Let's Design Together
+          Letns Design Together
         </h2>
         {/* Description */}
         <p className="md:w-[932px] md:h-[101px] text-[#FFFFFF] text-[21px] leading-[32px] font-normal font-[Poppins] text-lg md:text-xl mb-8">

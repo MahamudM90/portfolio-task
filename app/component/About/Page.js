@@ -17,7 +17,7 @@ const AboutMe = () => {
     };
 
     return (
-        <div className="py-8 text-white p-6 sm:p-8 lg:p-16 flex justify-center items-center min-h-screen">
+        <div className="py-4 text-white p-6 sm:p-8 lg:p-16 flex justify-center items-center  min-h-screen">
             <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row items-center md:space-x-12 space-y-8 md:space-y-0">
                 {/* Profile Image */}
                 <div className="relative w-36 h-36 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 mt-6 md:mt-0">

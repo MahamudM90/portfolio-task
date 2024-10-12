@@ -40,10 +40,10 @@ export default function Project() {
                     {/* card 1 */}
                     <div className='relative w-[390px] h-[489px] bg-[#FFEBDB] px-24 rounded transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-90 hover:bg-[#FFFFFF] duration-300'>
                         <div className='w-[274px] h-[489px]'>
-                            <Image src={project6}></Image>
+                            <Image src={project6} alt='project6'></Image>
                         </div>
                         <div className='absolute top-[78px] -left-[-20px]'>
-                            <Image src={project1}></Image>
+                            <Image src={project1} alt='project1'></Image>
                         </div>
                         <div className='-ml-12 mt-4 '>
                             <h1 className='w-[119px] h-[29px] text-[19px] text-[#FD6F00] font-[Poppins] font-normal leading-[29px]'>Web Design</h1>
@@ -53,10 +53,10 @@ export default function Project() {
                     {/* Card 2 */}
                     <div className='relative w-[390px] h-[489px] bg-[#FFEBDB] px-24 rounded transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-90 hover:bg-[#FFFFFF] duration-300'>
                         <div className='w-[274px] h-[489px]'>
-                            <Image src={project4}></Image>
+                            <Image src={project4} alt='project4'></Image>
                         </div>
                         <div className='absolute top-[71px] -left-[-20px]'>
-                            <Image src={project5}></Image>
+                            <Image src={project5} alt='project5'></Image>
                         </div>
 
                         <div className='-ml-12 mt-4'>
@@ -68,10 +68,10 @@ export default function Project() {
                     {/* Card 3 */}
                     <div className='relative w-[390px] h-[489px] bg-[#FFEBDB] px-24 rounded transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-90 hover:bg-[#FFFFFF] duration-300'>
                         <div className='w-[274px] h-[489px]'>
-                            <Image src={project2}></Image>
+                            <Image src={project2} alt='project2'></Image>
                         </div>
                         <div className='absolute top-[70px] -left-[-20px]'>
-                            <Image src={project3}></Image>
+                            <Image src={project3} alt='project3'></Image>
                         </div>
                         <div className='-ml-12 mt-4 '>
                             <h1 className='w-[119px] h-[29px] text-[19px] text-[#FD6F00] font-[Poppins] font-normal leading-[29px]'>Web Design</h1>

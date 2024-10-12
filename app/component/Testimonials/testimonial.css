@@ -2,10 +2,12 @@
 
 /* Increase the size of the dots */
 .slick-dots li button:before {
+   margin-top: 25px;
     font-size: 14px; /* Increase the size */
-    width: 40px; /* Increase width */
-    height: 40px; /* Increase height */
-    color: yellow; /* Yellow color for dots */
+    background-color: white;
+    width: 57px; /* Increase width */
+    height: 16px; /* Increase height */
+    color: #FD6F00; /* Yellow color for dots */
     opacity: 0.5; /* Slightly transparent when not active */
   }
   
@@ -13,6 +15,7 @@
   .slick-dots li.slick-active button:before {
     opacity: 1; /* Fully visible */
     color: white; /* Yellow color for active dot */
+    
   }
   
   /* Make the slider responsive */

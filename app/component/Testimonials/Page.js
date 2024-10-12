@@ -50,7 +50,7 @@ const Testimonials = () => {
         </p>
         <Slider {...settings}>
           {/* Testimonial 1 */}
-          <div className="w-[1087px] h-[344px] bg-white rounded-lg p-6 md:p-8 shadow-lg">
+          <div className="w-[1087px] h-[344px] bg-white rounded-lg p-6 md:p-8 shadow-lg mt-4">
             <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
               <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden">
                 <Image
@@ -73,7 +73,7 @@ const Testimonials = () => {
             </div>
           </div>
           {/* Testimonial 2 */}
-          <div className="w-[1087px] h-[344px] bg-white rounded-lg p-6 md:p-8 shadow-lg">
+          <div className="w-[1087px] h-[344px] bg-white rounded-lg p-6 md:p-8 shadow-lg mt-4">
             <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
               <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden">
                 <Image
