@@ -41,7 +41,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="py-20 md:py-52">
+    <section className="py-52">
       <div className="container mx-auto px-4 sm:px-6 text-center">
         <h2 className="text-white text-4xl sm:text-5xl md:text-[65px] leading-tight font-semibold font-[Poppins] mb-6">Testimonials</h2>
         <p className="font-[Poppins] text-lg sm:text-xl md:text-[21px] leading-relaxed text-white mb-12">

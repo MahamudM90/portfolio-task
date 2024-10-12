@@ -22,7 +22,7 @@ const AboutMe = () => {
                 {/* Profile Image */}
                 <div className="relative w-36 h-36 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 mt-6 md:mt-0">
                     {/* Orange Rectangular Background */}
-                    <div className="absolute top-4 md:top-[-12px] left-1 md:-left-[52%] bg-[#FD6F0099] w-36 h-8 sm:w-48 sm:h-8 md:w-[324px] md:h-[83px] z-20"></div>
+                    <div className="absolute top-2 md:top-[-12px] -left-4 md:-left-[52%] bg-[#FD6F0099] w-44 h-8 sm:w-48 sm:h-8 md:w-[324px] md:h-[83px] z-20"></div>
 
                     {/* White Circular Background */}
                     <div className="md:w-[321px] md:h-[321px] absolute inset-0 bg-white rounded-full z-10 md:-ml-[120px]"></div>

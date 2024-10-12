@@ -51,7 +51,7 @@ export default function Project() {
                         </div>
                     </div>
                     {/* Card 2 */}
-                    <div className='relative w-[390px] h-[489px] bg-[#FFEBDB] px-24 rounded transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-90 hover:bg-[#FFFFFF] duration-300'>
+                    <div className='max-sm:mt-[12px] relative w-[390px] h-[489px] bg-[#FFEBDB] px-24 rounded transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-90 hover:bg-[#FFFFFF] duration-300'>
                         <div className='w-[274px] h-[489px]'>
                             <Image src={project4} alt='project4'></Image>
                         </div>

@@ -24,10 +24,10 @@ export default function HeroSection() {
                         <br />
                         <span className="block md:inline mx-6 md:mx-60">Designer</span>
                     </h2>
-                    <p className="w-[698px] h-[101px] text-[#FFFFFF] text-[18px] md:text-[21px] font-normal leading-[28px] md:leading-[32px] mt-6 tracking-wide max-w-[90%] mx-auto md:mx-0 font-[Poppins]">
+                    <p className="md:w-[698px] md:h-[101px] w-[400px] h-[100px] text-[#FFFFFF] text-[18px] md:text-[21px] font-normal leading-[28px] md:leading-[32px] mt-6 tracking-wide max-w-[90%] mx-auto md:mx-0 font-[Poppins]">
                         Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra.
                     </p>
-                    <button className="md:w-[188px] md:h-[52px] w-1/4 h-1/4 max-sm:mx-auto bg-[#FD6F00] hover:bg-orange-600 transition-transform transform hover:scale-105 text-white text-lg px-6 py-3 mt-6 rounded">
+                    <button className="md:w-[188px] md:h-[52px] w-1/2 h-1/2 max-sm:mx-auto bg-[#FD6F00] hover:bg-orange-600 transition-transform transform hover:scale-105 text-white text-lg px-6 py-3 mt-6 rounded">
                         Hire Me
                     </button>
                 </div>

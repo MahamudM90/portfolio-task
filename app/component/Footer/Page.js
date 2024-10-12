@@ -18,7 +18,7 @@ const Footer = () => {
             <div className=" rounded-full p-2">
               <Image src={Subtract} width={70} height={66} className='w-[50px] h-[50px]'></Image>
             </div>
-            <p className='w-[159px] h-[59px] top-[4px] left-[100px] leading-[59px] text-[#FBFBFB] text-2xl md:text-[48px] font-[Montserrat]'>
+            <p className='w-[159px] h-[59px] top-[4px] max-sm:-ml-[24px] md:ml-[7px] left-[100px] leading-[59px] text-[#FBFBFB] text-2xl md:text-[48px] font-[Montserrat]'>
               <span className='font-bold'>M</span>umair
             </p>
           </div>
