@@ -28,4 +28,4 @@ $ cd portfolio
 $ npm install
 $ npm run dev
 ```
-   ###    [Live Site](https://mahamudm90.github.io/Task-1)
+   ###    [Live Site](https://portfolio-task-orcin.vercel.app)
